@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>9th International Conference on Tests &amp; Proofs (TAP 2015)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+ 
+   <style type="text/css">
+      body {
+        padding-top: 1px;
+        padding-bottom: 5px;
+      }
+
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 15px 0;
+      }
+      hr{
+        border-top: 1px solid #0099ff;
+      }
+
+    h1 {
+      font-size: 31px;
+      color: #2233aa;
+      margin-top: 20px
+    }
+    h2 {
+      font-size: 20px;
+      color: #2233aa;
+    }
+    h3 {
+      font-size: 15px;
+      color: #000000;
+      margin: 4px;
+      color: #2233aa;
+    }
+
+    li { font-size: 90%; }
+
+
+    ul.nav li.dropdown:hover ul.dropdown-menu{
+      display: block;
+    }
+
+    .navbar .dropdown-menu {
+       margin-top: 0px;
+    }
+
+    .nav > li {
+      font-size: 100%;
+    }
+    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus,
+    .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+      background-image: none;
+      background-color: #2233aa;
+    }
+.navbar .nav > li > a {
+    color: #2233aa;
+    float: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.navbar .nav > li > a:hover {
+    color: #ccaa66;
+    float: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+
+
+    </style>
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+  </head>
+
+  <body>
+    <div class="container-narrow">
+
+      <hr>	      <div class="navbar">	        <ul class="nav nav-pills pull-right">	           <li><a href="index.shtml">Home</a></li>	          <li class="dropdown">	            <a href="" class="dropdown-toggle" data-toggle="dropdown">	              Conference  <b class="caret"></b>	            </a>	            <ul class="dropdown-menu">		              <li><a href="program.shtml">Program</a></li>		              <li><a href="organization.shtml">Organization</a></li>	              <li><a href="previous.shtml">Previous Editions</a></li>		              <li><a href="keynotes.shtml">Keynotes</a></li>	              <li><a href="tutorial.shtml"">Invited Tutorial</a></li>		             </ul>	 <li class="dropdown">	            <a href="" class="dropdown-toggle" data-toggle="dropdown">	             Call <b class="caret"></b>	            </a>	            <ul class="dropdown-menu">	              <li><a href="call.shtml">Call for Papers</a></li>	              <li><a href="dates.shtml">Important Dates</a></li>	               <li><a href="submission.shtml">Submission</a></li>	            </ul>	          </li>	          <li class="dropdown">	            <a href="" class="dropdown-toggle" data-toggle="dropdown">	              Participation <b class="caret"></b>	            </a>	            <ul class="dropdown-menu">	              <li><a href="http://www.disim.univaq.it/staf2015/">STAF</a></li>	              <li><a href="registration.shtml">Registration</a></li>	              <li><a href="http://www.disim.univaq.it/staf2015/local-information/">Accommodation</a></li>	              <li><a href="http://www.disim.univaq.it/staf2015/local-information/">Venue</a></li>	            </ul>	          </li>		        </ul>	        <h2>TAP 2015</h2>	      </div>	      <hr>	          <div class="container-narrow">	      <div class="row-fluid">	      <div class="span12">	      <img src="img/header.png" alt="header">	        <h1>9th International Conference on 	        Tests &amp; Proofs </h1>	      </div>	      <p>	      22&ndash;24 July 2015, L'Aquila, Italy	      </p>	      <hr>	      </div>	      </div>	
+
+      <div class="row-fluid">
+      <div class="span12">
+
+	<h2>Keynote 1: &nbsp;<a href="http://heim.ifi.uio.no/~einarj/">Einar Broch Johnsen</a><br>Mind the Gap: At the Crossroads of Design, Implementation, and Foundations</h2>
+
+<h3>Thursday 23 July 2015, 14:00&ndash;15:30</h3>
+
+<h3>Abstract</h3>
+<p>To reduce complexity, general-purpose modeling languages strive for
+abstraction. But what is the right level of abstraction? Design-oriented models
+capture the logical or physical organization of software, abstracting from
+their dynamic behavior. Foundational models capture core features in a way
+suitable for meta-theory, but rely on cumbersome encodings of other features.
+Specifications close to actual code get obfuscated by the low-level intricacies
+of specific implementations.
+</p>
+
+<p>This talk reports on research on abstract behavioral specifications, aiming for
+a middle ground in the gap between design, implementation, and foundations. We
+consider executable, yet abstract models which are faithful to the control and
+data flow of concurrent and distributed object-oriented systems, yet abstract
+enough to facilitate formal verification. We then consider how novel
+technologies such as virtualization and cloud computing reintroduce low-level
+concerns at the abstraction level of the models. Deployment decisions form an
+integral part of resource-aware, virtualized applications. We discuss how these
+technologies raise new challenges for model-based analysis.
+</p>
+
+<h3>Bio</h3>
+<p>
+<a href="http://heim.ifi.uio.no/~einarj/">Einar Broch Johnsen</a> is Professor at the <a href="http://www.mn.uio.no/ifi/">Department of Informatics</a>, <a href="http://www.uio.no">University of
+Oslo</a>. His research interests are in the field of software development and
+analysis, spanning from programming languages and methodology, via system
+specification and modeling, to formal methods and associated theory. Prof.
+Johnsen is particularly interested in the analysis of concurrent and distributed
+systems, resource awareness and resource management, and mechanisms for software
+evolution and reuse. His research in the last years has increasingly focused on
+abstract behavioral specification formalisms and their use for model-based
+verification of real systems. Prof. Johnsen is currently coordinating the
+European research project <a href="http://www.envisage-project.eu">Engineering Virtualized Services (Envisage)</a> which
+develops model-based verification techniques to predict the behavior of services
+deployed on the cloud.
+</p>
+
+      </div>
+      </div>
+
+	<h2>Keynote 2: &nbsp;<a href="http://www.di.ens.fr/~zappa/">Francesco Zappa Nardelli</a><br>Reasoning about C Concurrency and Compilers</h2>
+
+<h3>Friday 24 July 2015, 09:00&ndash;10:30</h3>
+
+<h3>Abstract</h3>
+
+<p>
+The C and C++ languages were originally designed without concurrency support, but
+the recent revision of the C and C++ standards introduced an intricate but
+precise semantics for threads; today's C and C++ compilers, whose optimisers
+were initially developed in absence of any well-defined concurrency memory
+model, are being extended to support this new concurrency standard. This is a
+fantastic opportunity to put at work all our tools to formalise, test, and
+reason about large scale semantics and software.
+</p>
+
+<p>
+In this talk, after recalling the C and C++ memory models, we will explore in a
+theorem prover the correctness of compiler optimisations and present simple
+necessary conditions that can be used as a reference by compiler implementers.
+As an application, we will show how this theory enables building an automatic
+compiler fuzzer that hunts &ldquo;concurrency compiler bugs&rdquo;: subtle wrong code
+generation bugs which are observable only when the miscompiled functions
+interact with concurrent contexts.
+</p>
+
+<p>
+Perhaps surprisingly, we will also show that by leveraging the semantics of
+low-level relaxed atomic accesses (which allows programmers to take full
+advantage of weakly-ordered memory operations), it is possible to build
+counterexamples to several common source-to-source program transformations (such
+as expression linearisation and &ldquo;roach motel&rdquo; reorderings) that modern compilers
+perform and that are deemed to be correct. We will evaluate a number of possible
+local fixes, some strengthening and some weakening the model, and perhaps
+conclude, that, currently, there is no really satisfactory proposal for the
+semantics of a general-purpose shared-memory concurrent programming language.
+</p>
+
+<h3>Bio</h3>
+<p>
+<a href="http://www.di.ens.fr/~zappa/">Francesco Zappa Nardelli</a> is a Researcher at <a href="http://www.inria.fr/centre/paris-rocquencourt">Inria Paris &ndash; Rocquencourt</a>. His
+research interests focus on concurrent computation on top of relaxed
+memory models, ranging from hardware models of modern architectures to
+high-level programming language specification and compilation. He received his
+Ph.D. from Université Paris 7 in 2003.
+Since then, he has worked on language design for distributed computation, type
+systems for integrating typed and untyped code in scripting languages, and tool
+support for semantics (including the Ott tool).
+</p>
+
+      </div>
+      </div>
+
+      <hr>
+      </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>9th International Conference on Tests &amp; Proofs (TAP 2015)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+ 
+   <style type="text/css">
+      body {
+        padding-top: 1px;
+        padding-bottom: 5px;
+      }
+
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 15px 0;
+      }
+      hr{
+        border-top: 1px solid #0099ff;
+      }
+
+    h1 {
+      font-size: 31px;
+      color: #2233aa;
+      margin-top: 20px
+    }
+    h2 {
+      font-size: 20px;
+      color: #2233aa;
+    }
+    h3 {
+      font-size: 15px;
+      color: #000000;
+      margin: 4px;
+      color: #2233aa;
+    }
+
+    li { font-size: 90%; }
+
+
+    ul.nav li.dropdown:hover ul.dropdown-menu{
+      display: block;
+    }
+
+    .navbar .dropdown-menu {
+       margin-top: 0px;
+    }
+
+    .nav > li {
+      font-size: 100%;
+    }
+    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus,
+    .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+      background-image: none;
+      background-color: #2233aa;
+    }
+.navbar .nav > li > a {
+    color: #2233aa;
+    float: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.navbar .nav > li > a:hover {
+    color: #ccaa66;
+    float: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+
+
+    </style>
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+  </head>
+
+  <body>
+    <div class="container-narrow">
+
+      <hr>	      <div class="navbar">	        <ul class="nav nav-pills pull-right">	           <li><a href="index.shtml">Home</a></li>	          <li class="dropdown">	            <a href="" class="dropdown-toggle" data-toggle="dropdown">	              Conference  <b class="caret"></b>	            </a>	            <ul class="dropdown-menu">		              <li><a href="program.shtml">Program</a></li>		              <li><a href="organization.shtml">Organization</a></li>	              <li><a href="previous.shtml">Previous Editions</a></li>		              <li><a href="keynotes.shtml">Keynotes</a></li>	              <li><a href="tutorial.shtml"">Invited Tutorial</a></li>		             </ul>	 <li class="dropdown">	            <a href="" class="dropdown-toggle" data-toggle="dropdown">	             Call <b class="caret"></b>	            </a>	            <ul class="dropdown-menu">	              <li><a href="call.shtml">Call for Papers</a></li>	              <li><a href="dates.shtml">Important Dates</a></li>	               <li><a href="submission.shtml">Submission</a></li>	            </ul>	          </li>	          <li class="dropdown">	            <a href="" class="dropdown-toggle" data-toggle="dropdown">	              Participation <b class="caret"></b>	            </a>	            <ul class="dropdown-menu">	              <li><a href="http://www.disim.univaq.it/staf2015/">STAF</a></li>	              <li><a href="registration.shtml">Registration</a></li>	              <li><a href="http://www.disim.univaq.it/staf2015/local-information/">Accommodation</a></li>	              <li><a href="http://www.disim.univaq.it/staf2015/local-information/">Venue</a></li>	            </ul>	          </li>		        </ul>	        <h2>TAP 2015</h2>	      </div>	      <hr>	          <div class="container-narrow">	      <div class="row-fluid">	      <div class="span12">	      <img src="img/header.png" alt="header">	        <h1>9th International Conference on 	        Tests &amp; Proofs </h1>	      </div>	      <p>	      22&ndash;24 July 2015, L'Aquila, Italy	      </p>	      <hr>	      </div>	      </div>	
+
+      <div class="row-fluid">
+      <div class="span12">
+
+	<h2> Scope </h2>
+
+
+	<p>
+The TAP conference is devoted to the synergy of proofs and tests, to
+the application of techniques from both sides and their combination
+for the advancement of software quality.
+	</p>
+
+	<p>
+Testing and proving seem to be orthogonal techniques: Once a program
+has been proven to be correct then additional testing seems pointless;
+however, when such a proof in not feasible, then testing the program
+seems to be the only option. This view has dominated the research
+community for a long time, and has resulted in distinct communities
+pursuing the different research areas.
+	</p>
+
+	<p>
+The development of both approaches has led to the discovery of common
+issues and to the realization of potential synergy. Perhaps the use of
+model checking in testing was one of the first signs that a
+counterexample to a proof may be interpreted as a test case. Recent
+breakthroughs in deductive techniques such as satisfiability modulo
+theories, abstract interpretation, and interactive theorem proving
+have paved the way for new and practically effective methods of
+powering testing techniques. Moreover, since formal, proof-based
+verification is costly, testing invariants and background theories can
+be helpful to detect errors early and to improve cost effectiveness.
+Summing up, in the past few years an increasing number of research
+efforts have encountered the need for combining proofs and tests,
+dropping earlier dogmatic views of incompatibility and taking instead
+the best of what each of these software engineering domains has to
+offer.
+	</p>
+
+	<p>
+The TAP conference aims to bring together researchers and
+practitioners working in the converging fields of testing and proving
+by offering a generous forum for the presentation of ongoing research,
+for tutorials on established technologies and for informal
+discussions.
+	</p>
+
+	<h2>Topics of Interest</h2>
+
+	<p>
+Topics of interest cover theory definitions, tool constructions and
+experimentations, and include among others:
+	</p>
+
+	<ul>
+	<li>Bridging the gap between concrete and symbolic 
+	techniques, e.g. using
+	proof search in satisfiability modulo theories solvers to enhance
+  	various testing techniques
+	</li>
+	<li>Transfer of concepts from testing to proving 
+	(e.g., coverage criteria)
+  	and from proving to testing
+	</li>
+	<li>
+	Program proving with the aid of testing techniques
+	</li>
+	<li>
+	Verification and testing techniques combining proofs and tests
+	</li>
+	<li>
+	Generation of test data, oracles, or preambles by deductive techniques
+	such as: theorem proving, model checking, symbolic execution,
+	constraint logic programming
+	</li>
+	<li>
+	Model-based testing and verification
+	</li>
+	<li>
+	Generation of specifications by deduction
+	</li>
+	<li>
+	Automatic bug finding
+	</li>
+	<li>
+	Debugging of programs combining static and dynamic analysis
+	</li>
+	<li>
+	Case studies combining tests and proofs
+	</li>
+	<li>
+	Domain specific applications of testing and proving to new application
+	domains such as validating security protocols, vulnerability detection
+	of programs, security
+	</li>
+	<li>
+	Testing of verification environments and reasoning engines like solvers 
+	and theorem provers
+	</li>
+	<li>
+	New approaches such as crowd-sourcing and serious games to 
+	infer intended semantics and assess correctness
+	</li>
+	<li>
+	Formal frameworks
+	</li>
+	<li>
+	Tool descriptions and experience reports
+	</li>
+	</ul>
+	<p> TAP 2015 solicits regular research papers, short papers as well as
+        tutorials. Please follow the <a href="submission.shtml">submission instructions</a>.</p>
+      </div>
+      </div>
+
+      <hr>
+      </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

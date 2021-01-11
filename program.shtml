@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>9th International Conference on Tests &amp; Proofs (TAP 2015)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+ 
+   <style type="text/css">
+      body {
+        padding-top: 1px;
+        padding-bottom: 5px;
+      }
+
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 15px 0;
+      }
+      hr{
+        border-top: 1px solid #0099ff;
+      }
+
+    h1 {
+      font-size: 31px;
+      color: #2233aa;
+      margin-top: 20px
+    }
+    h2 {
+      font-size: 20px;
+      color: #2233aa;
+    }
+    h3 {
+      font-size: 15px;
+      color: #000000;
+      margin: 4px 0;
+      color: #2233aa;
+    }
+
+    li { font-size: 90%; }
+
+
+    ul.nav li.dropdown:hover ul.dropdown-menu{
+      display: block;
+    }
+
+    .navbar .dropdown-menu {
+       margin-top: 0px;
+    }
+
+    .nav > li {
+      font-size: 100%;
+    }
+    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus,
+    .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+      background-image: none;
+      background-color: #2233aa;
+    }
+.navbar .nav > li > a {
+    color: #2233aa;
+    float: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.navbar .nav > li > a:hover {
+    color: #ccaa66;
+    float: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+
+
+    </style>
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+  </head>
+
+  <body>
+    <div class="container-narrow">
+
+      <hr>	      <div class="navbar">	        <ul class="nav nav-pills pull-right">	           <li><a href="index.shtml">Home</a></li>	          <li class="dropdown">	            <a href="" class="dropdown-toggle" data-toggle="dropdown">	              Conference  <b class="caret"></b>	            </a>	            <ul class="dropdown-menu">		              <li><a href="program.shtml">Program</a></li>		              <li><a href="organization.shtml">Organization</a></li>	              <li><a href="previous.shtml">Previous Editions</a></li>		              <li><a href="keynotes.shtml">Keynotes</a></li>	              <li><a href="tutorial.shtml"">Invited Tutorial</a></li>		             </ul>	 <li class="dropdown">	            <a href="" class="dropdown-toggle" data-toggle="dropdown">	             Call <b class="caret"></b>	            </a>	            <ul class="dropdown-menu">	              <li><a href="call.shtml">Call for Papers</a></li>	              <li><a href="dates.shtml">Important Dates</a></li>	               <li><a href="submission.shtml">Submission</a></li>	            </ul>	          </li>	          <li class="dropdown">	            <a href="" class="dropdown-toggle" data-toggle="dropdown">	              Participation <b class="caret"></b>	            </a>	            <ul class="dropdown-menu">	              <li><a href="http://www.disim.univaq.it/staf2015/">STAF</a></li>	              <li><a href="registration.shtml">Registration</a></li>	              <li><a href="http://www.disim.univaq.it/staf2015/local-information/">Accommodation</a></li>	              <li><a href="http://www.disim.univaq.it/staf2015/local-information/">Venue</a></li>	            </ul>	          </li>		        </ul>	        <h2>TAP 2015</h2>	      </div>	      <hr>	          <div class="container-narrow">	      <div class="row-fluid">	      <div class="span12">	      <img src="img/header.png" alt="header">	        <h1>9th International Conference on 	        Tests &amp; Proofs </h1>	      </div>	      <p>	      22&ndash;24 July 2015, L'Aquila, Italy	      </p>	      <hr>	      </div>	      </div>	
+
+      <div class="row-fluid">
+      <div class="span12">
+	<h2> Program </h2>
+
+<h2>Wednesday, 22 July 2015</h2>
+
+<h3>12:30&ndash;14:00 &nbsp; Lunch</h3>
+
+<h3>14:00&ndash;15:30 &nbsp; Invited TAP Tutorial</h3>
+
+<blockquote>
+<p>
+Carlo A. Furia
+<br>
+<b>Testing, Fixing, and Proving with Contracts</b> &nbsp; <a href="http://www.slideshare.net/CarloAFuria/testing-fixing-and-proving-with-contracts">[slides]</a>
+</p>
+</blockquote>
+
+<h3>16:00&ndash;17:30 &nbsp; Session 1:  Test Generation &nbsp; &nbsp; (Chair: Carlo A. Furia)</h3>
+
+<blockquote>
+<p>
+Jan Peleska, Felix Hübner, and Wen-Ling Huang
+<br>
+<b>Experimental Evaluation of a Novel Equivalence Class Partition Testing Strategy</b> &nbsp; <a href="huebner_slides.pdf">[slides]</a>
+</p>
+</blockquote>
+
+<blockquote>
+<p>
+Bernhard K. Aichernig, Dejan Nickovic, and Stefan Tiran
+<br>
+<b>Scalable incremental test-case generation from large behavior models</b> &nbsp; <a href="tiran_slides.pdf">[slides]</a>
+</p>
+</blockquote>
+
+<blockquote>
+<p>
+Roderick Bloem, Daniel Hein, Franz Roeck, and Richard Schumi
+<br>
+<b>Case Study: Automatic test case generation for a secure cache implementation</b>
+</p>
+</blockquote>
+
+<h3>17:30&ndash;18:00 &nbsp; Informal discussions</h3>
+
+<h3>Evening &nbsp; <a href="http://www.disim.univaq.it/staf2015/social-events/">Banquet</a></h3>
+
+<p>
+The banquet is included in the full STAF registration.
+Additional banquet tickets can be purchased otherwise.
+See the <a href="http://www.disim.univaq.it/staf2015/social-events/">STAF
+website</a> for details on the social events.
+</p>
+
+<br>
+
+<h2>Thursday, 23 July 2015</h2>
+
+<h3>09:00&ndash;10:30 &nbsp; ECMFA Keynote</h3>
+
+<blockquote>
+<p>
+Sam Nicander
+<br>
+<b>Towards MBE &ndash; a tale of 4 introductions</b>
+</p>
+</blockquote>
+
+<h3>11:00&ndash;12:30 &nbsp; Session 2:  Applications &nbsp; &nbsp; (Chair: Catherine Dubois)</h3>
+
+<blockquote>
+<p>
+Richard Genestier, Alain Giorgetti, and Guillaume Petiot
+<br>
+<b>Sequential generation of structured arrays and its deductive verification</b> &nbsp; <a href="genestier_slides.pdf">[slides]</a>
+</p>
+</blockquote>
+
+<blockquote>
+<p>
+Konstantinos Athanasiou, Hernan Ponce-De-Leon, and Stefan Schwoon
+<br>
+<b>Test Case Generation for Concurrent Systems Using Event Structures</b> &nbsp; <a href="poncedeleon_slides.pdf">[slides]</a>
+</p>
+</blockquote>
+
+<blockquote>
+<p>
+Ernesto C. B. de Matos, David Déharbe, Anamaria M. Moreira, Cleverton Hentz, Valério de Medeiros Jr. and João B. Souza Neto
+<br>
+<b>Verifying Code Generation Tools for the B-Method Using Tests: a Case Study</b> &nbsp; <a href="dematos_slides.pdf">[slides]</a>
+</p>
+</blockquote>
+
+<h3>12:30&ndash;14:00 &nbsp; Lunch</h3>
+
+<h3>14:00&ndash;15:30 &nbsp; TAP Keynote</h3>
+
+<blockquote>
+<p>
+Einar Broch Johnsen
+<br>
+<b>Mind the Gap: At the Crossroads of Design, Implementation, and Foundations</b>
+</p>
+</blockquote>
+
+<h3>16:00&ndash;17:15 &nbsp; Session 3:  Model-Based Verification &nbsp; &nbsp; (Chair: Bernhard K. Aichernig)</h3>
+
+<blockquote>
+<p>
+Olga Grinchtein, Mats Carlsson, and Justin Pearson
+<br>
+<b>A constraint optimization model for analysis of telecommunication protocol logs</b> &nbsp; <a href="grinchtein_slides.pdf">[slides]</a>
+</p>
+</blockquote>
+
+<blockquote>
+<p>
+Aaron Dutle, Cesar Munoz, Anthony Narkawicz, and Ricky Butler
+<br>
+<b>Software Validation via Model Animation</b> &nbsp; <a href="dutle_slides.pdf">[slides]</a>
+</p>
+</blockquote>
+
+<blockquote>
+<p>
+Martin Gogolla, Lars Hamann, Frank Hilken, and Matthias Sedlmeier
+<br>
+<b>Checking UML and OCL Model Consistency: An Experience Report on a Middle-Sized Case Study (Short Paper)</b> &nbsp; <a href="gogolla_slides.pdf">[slides]</a>
+</p>
+</blockquote>
+
+<h3>17:15&ndash;18:00 &nbsp; Informal discussions</h3>
+
+<br>
+
+<h2>Friday, 24 July 2015</h2>
+
+<h3>09:00&ndash;10:30 &nbsp; TAP Keynote</h3>
+
+<blockquote>
+<p>
+Francesco Zappa Nardelli
+<br>
+<b>Reasoning about C Concurrency and Compilers</b> &nbsp; <a href="http://www.di.ens.fr/~zappa/slides/zappa-tap15.pdf">[slides]</a>
+</p>
+</blockquote>
+
+<h3>11:00&ndash;12:30 &nbsp; Session 4: Model Coverage &nbsp; &nbsp; (Chair: Einar Broch Johnsen)</h3>
+
+<blockquote>
+<p>
+Stefan Mijatov, Tanja Mayerhofer, Philip Langer, and Gerti Kappel
+<br>
+<b>Testing Functional Requirements in UML Activity Diagrams</b> &nbsp; <a href="mayerhofer_slides.pdf">[slides]</a>
+</p>
+</blockquote>
+
+<blockquote>
+<p>
+Mathias Soeken, Julia Seiter, and Rolf Drechsler
+<br>
+<b>Coverage of OCL Operation Specifications and Invariants</b> &nbsp; <a href="seiter_slides.pdf">[slides]</a>
+</p>
+</blockquote>
+
+<blockquote>
+<p>
+Geoff Birch, Bernd Fischer, and Michael Poppleton
+<br>
+<b>Fast Model-Based Fault Localisation with Test Suites</b> &nbsp; <a href="birch_slides.pdf">[slides]</a>
+</p>
+</blockquote>
+
+<h3>12:30&ndash;14:00 &nbsp; Lunch</h3>
+
+<br>
+
+  </body>
+</html>
